@@ -1,0 +1,19 @@
+html, body {height:100%; overflow: hidden;}
+body { background: #F8F8F8; font: small sans-serif; margin: 0; font-family: Verdana, Consolas, "Malgun Gothic", Sans-Serif; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; }
+div.calc_wrap {position: absolute; top: 250px; left: 50%; width: 296px; margin-left: -144px; display: none;}
+table { width: 100%; background-color: #585A5C; border-spacing: 1px; border:1px solid #1E1E1E; border-radius: 6px;}
+td { width: 25%; padding: 0; margin: 0; }
+td span { display:inline-block; color: #FFFFFF; text-align: center; }
+td[class*="calc_"] span { min-width: 52px; min-height: 52px; font-size:2em; padding:22px 10px 0 10px; }
+.panel_msg, .panel_input { background-color: #585A5C; }
+.panel_msg span { width: 100%; height: 20px; text-align: right; font-size:11pt; color: #BEBEBE; }
+.panel_input span { width: 100%; height: 60px; text-align: right; font-size:32pt; }
+.panel_input span.over_size {font-size:19pt;}
+.panel_input span.max_size {font-size:14pt;}
+.calc_cmd { background-color: #68696B; cursor:pointer }
+.calc_cmd span:active, .calc_cmd span.on { background-color: #818283; }
+.calc_operator { background-color: #F2A33C; cursor:pointer }
+.calc_operator span:active, .calc_operator span.on { background-color: #CA7A11; }
+.calc_num { background-color: #818283; cursor:pointer }
+.calc_num span:active, .calc_num span.on { background-color: #BEBFBF; }
+.sub_title { font-size: 10px; text-align: right; padding-bottom: 4px; }
